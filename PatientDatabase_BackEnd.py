@@ -42,16 +42,16 @@ def search(MRD_no="",Age="",AgeGrp="",Gender="",ClinicalFeatures="",Pneumonia=""
         st=st+'MRD_no="'+MRD_no+'" AND '
     if Age!="" :
         st=st+'Age="'+Age+'" AND '
-    #if AgeGrp!="" :
-        #st=st+'AgeGrp="'+AgeGrp+'" AND '
-    #if Gender!="" :
-        #st=st+'Gender="'+Gender+'" AND '
-    #if ClinicalFeatures!="" :
-        #st=st+'ClinicalFeatures="'+ClinicalFeatures+'" AND '
-    #if Pneumonia!="" :
-        #st=st+'Pneumonia="'+Pneumonia+'" AND '
-    #if Sputeum_specimen!="" :
-        #st=st+'Sputeum_specimen="'+Sputeum_specimen+'" AND '
+    if AgeGrp!="" :
+        st=st+'AgeGrp="'+AgeGrp+'" AND '
+    if Gender!="" :
+        st=st+'Gender="'+Gender+'" AND '
+    if ClinicalFeatures!="" :
+        st=st+'ClinicalFeatures="'+ClinicalFeatures+'" AND '
+    if Pneumonia!="" :
+        st=st+'Pneumonia="'+Pneumonia+'" AND '
+    if Sputeum_specimen!="" :
+        st=st+'Sputeum_specimen="'+Sputeum_specimen+'" AND '
     if Organism!="" :
         st=st+'Organism="'+Organism+'" AND '    
         
